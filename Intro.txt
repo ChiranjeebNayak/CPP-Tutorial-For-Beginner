@@ -1,0 +1,36 @@
+Prerequisite  :
+
+Internet
+Desktop
+
+What is C++ ?
+
+C++ is a cross-platform language that can be used to create high-performance applications.
+
+C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+
+
+Why Use C++ ?
+
+C++ is one of the world's most popular programming languages.
+
+C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+
+C++ is fun and easy to learn!
+
+Difference between C and C++ :
+
+C++ was developed as an extension of C, and both languages have almost the same syntax.
+
+The main difference between C and C++ is that C++ support classes and objects, while C does not.
+
+
+Get Started : 
+
+This tutorial will teach you the basics of C++.
+
+It is not necessary to have any prior programming experience.
+
+Need to install some IDE to write code
+
+
