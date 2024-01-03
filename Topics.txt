@@ -2,8 +2,8 @@
 2. First Program / syntax
 3. Output , Comments
 4. Variables
-5. UserInput
-6. DataTypes
+5. DataTypes
+6. UserInput
 7. Operators
 8. Conditions
 9. Switch
