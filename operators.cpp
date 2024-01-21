@@ -29,5 +29,18 @@ int main(){
     cout<<"pre dec x value1 = "<<--x<<endl;
     cout<<"pre dec x value2 = "<<x<<endl;
 
+    // asignment operator
+
+    int aa = 3;
+    int cc = aa+3; //3+3
+    cout<<"c = "<<c<<endl;
+    int d = 3;
+    d+=3;
+    cout<<"d = "<<d<<endl;
+
+    // comparision operator
+    cout<<(2>3)<<endl; // false - 0
+    cout<<(2<3)<<endl; // true 1
+
 
 }
