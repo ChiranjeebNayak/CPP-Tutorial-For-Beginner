@@ -1,0 +1,96 @@
+In Programming, sometimes there is a need to perform some operation more than once or (say) n number of times. Loops come into use when we need to repeatedly execute a block of statements. 
+
+For example: Suppose we want to print “Hello World” 5 times. This can be done in two ways as shown below: 
+
+Manual Method (Iterative Method) :
+
+Manually we have to write cout for the C++ statement 5 times
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    cout << "Hello World\n";
+    cout << "Hello World\n";
+    cout << "Hello World\n";
+    cout << "Hello World\n";
+    cout << "Hello World\n";
+    return 0;
+}
+
+Using Loops :
+
+In Loop, the statement needs to be written only once and the loop will be executed 5 times  as shown below.
+
+There are mainly two types of loops:  
+
+Entry Controlled loops: 
+
+In this type of loop, the test condition is tested before entering the loop body. For Loop and While Loop is entry-controlled loops.
+
+Exit Controlled Loops: 
+
+In this type of loop the test condition is tested or evaluated at the end of the loop body. Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. the do-while loop is exit controlled loop.
+
+Loop Type and Description
+
+while loop :
+
+– First checks the condition, then executes the body.
+
+
+
+Syntax:
+
+while (test_expression)
+{
+   // statements
+ 
+  update_expression;
+}
+
+
+
+for loop :
+
+– firstly initializes, then, condition check, execute body, update.
+
+A For loop is a repetition control structure that allows us to write a loop that is executed a specific number of times. The loop enables us to perform n number of steps together in one line. 
+
+Syntax: 
+
+for (initialization expr; test expr; update expr)
+{    
+     // body of the loop
+     // statements we want to execute
+}
+
+Example : - 
+
+print hello world using for loop 5 times
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    for (int i = 1; i <= 5; i++) {
+        cout << "Hello World\n";
+    }
+ 
+    return 0;
+}
+
+
+do-while loop :
+
+– firstly, execute the body then condition check
+
+
+Syntax:
+
+do
+{
+   // statements
+}while(condition);
